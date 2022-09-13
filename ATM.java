@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Operations{
+public class ATM {
     static int balance=0;
     static int min_balance=1500;
     public static void withdraw(int amount){
@@ -23,9 +23,6 @@ class Operations{
         }
         else System.out.println("Happy Banking!");
     }
-}
-public class ATM extends Operations{
-
     public static void main(String[] args) {
 
         Scanner inp = new Scanner(System.in);
